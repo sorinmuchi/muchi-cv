@@ -1,0 +1,114 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{muchicv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Sorin Muchi}
+%\address{Vancouver, BC}
+\contacts{sorin.ai \linebreak github.com/sorinmuchi \linebreak sorin.muchi@gmail.com \linebreak (514) 431-5451}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Fortinet}{Web Developer 1}{Sept 2017 - now}
+			FortiOS GUI			
+			\begin{itemize}
+				\item Implemented the UI for 3 GUI Features, fixed 100s of bugs across the entire web stack.
+				\item Ranked 2nd out of 10 in an internal network security CTF-style competition. Teams of 2.
+				\item Stack: AngularJS, Django, CSS, JavaScript, Python, c, REST API.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Microsoft}{Software Developer Intern}{May 2017 - Aug 2017}	
+			\begin{itemize}
+				\item Lead the Machine Learning sub-project and built a Machine Learning pipeline to predict bus crowdedness per stop per time of day, which achieved 90\% accuracy for 3-month forecasts.
+				\item Stack: Deep Neural Networks, Decision Trees, SVMs, Python, Azure Compute.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Genetec}{Software Engineer Intern}{Jan 2016 - Sept 2016}		
+			\begin{itemize}
+				\item Built several GUI components and fixed multiple bugs in the networking stack.
+				\item Stack: F\#, Erlang, C\#, SIP, Audio/Video Codecs, UDP.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Ericsson}{Software Engineer Intern}{Summer 2014}
+			Visual Studio Core (Summer 2003)		
+			\begin{itemize}
+				\item Migrated logging system from LOG4J to SLF4J and increased logging efficiency 10x in production.
+				\item Stack: Java, Bash, Network Infrastructure.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Udacity}{Vancouver, BC}{April 2018 - Dec 2018}
+			Self-Driving Car Nanodegree
+		\end{cvsubsection}
+		\begin{cvsubsection}{McGIll University}{Montreal, QC}{Sept 2013 - May 2017}
+			B.A. Computer Science
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Lane Detection} (2018). Dashcam video lane detection and overlay. Computer Vision. Python, OpenCV.
+				\item \textbf{Image Classification} (2017). ImageNet subset image classification. 3rd pl. 91\% 1-class acc. ML. TensorFlow.
+				\item \textbf{Settlers of Catan} (2017).  Settlers of Catan board game implementation. Class project, team of 5. C\#, Unity.
+				\item \textbf{Russian Transliteration} (2016). Chrome plugin to introduce tooltips with phonetics for Cyrillic text. JavaScript.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Arts and Science 1971 International Bursary, McGill University.} (2013) Merit based entrance scholarship awarded to students from former Warsaw Pact countries.
+				\item \textbf{3rd Place, Image Classification Machine Learning Competition, McGill University.} (2017) Team of 3 placed 3rd out of 50 in class-based mixed undergrad/grad image classification student competition.
+				\item \textbf{Comp-Sci Tutor, CSUS, McGill University.} (2015) Held weekly office hours, explained Comp-Sci concepts.
+				\item \textbf{Sponsorship Lead, HackMcGill, McGill University.} (2015-2017) Hackathon logistics and fundraising. \newline Personally raised \$30k out of total of \$100k.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python, Java, C, F\#, C\#, SQL, JavaScript 
+				\item TensorFlow, OpenCV, NumPy, Pandas
+				\item Django, AngularJS, jQuery, Linux
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
